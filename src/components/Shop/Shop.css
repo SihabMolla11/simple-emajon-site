@@ -9,3 +9,20 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+.porosid-link{
+    text-decoration: none;
+}
+
+.btn-proceed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    background-color: #ff8800be;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    height: 56px;
+}
