@@ -1,6 +1,6 @@
 .login-container {
   width: 400px;
-  height: 600px;
+  height: auto;
   border: 1px solid #95a0a7;
   border-radius: 8px;
   margin: 50px auto;
@@ -43,7 +43,7 @@
   margin-left:45px;
   font-size: 21px;
   letter-spacing: 0.0015em;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .submit-btn:hover{

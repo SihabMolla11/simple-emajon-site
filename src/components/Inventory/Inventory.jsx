@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AuthContext } from '../AuthProvider';
 
 const Inventory = () => {
+
+    const {user} = useContext(AuthContext)
+
     return (
         <div>
-            This is Inventory page
+            This is Inventory page {user.name}
         </div>
     );
 };
