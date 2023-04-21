@@ -1,7 +1,7 @@
 import React from "react";
-import "./Login.css";
+import "./signup.css";
 
-const Login = () => {
+const SignUP = () => {
   return (
     <div className="login-container">
       <h2 className="login-title">Please Login</h2>
@@ -12,13 +12,17 @@ const Login = () => {
         </div>
         <div className="form-control">
           <label htmlFor="password">Password</label>
-          <input type="password" name="password" id="" required />
+          <input type="password" name="password" id="" required/>
+        </div>
+        <div className="form-control">
+          <label htmlFor="password">Confirm Password</label>
+          <input type="password" name="password" id="" required/>
         </div>
         <input className="submit-btn" type="submit" value="Login" />
       </form>
       <div>
         <div className="create-section">
-          <small >
+          <small>
             <span style={{ color: "#2A414F" }}>New to Ema-john?</span>{" "}
             <span style={{ color: "#FF9900" }}>Create New Account</span>
           </small>
@@ -28,4 +32,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUP;

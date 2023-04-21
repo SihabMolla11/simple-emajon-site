@@ -1,30 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=EB+Garamond:wght@400;800&family=Lato:ital,wght@0,400;0,700;1,400&family=Lobster&family=Manrope&family=Poppins:wght@400;500&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  font-family: 'Lato', sans-serif;
 }
-
 
 body {
   margin: 0;
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
@@ -51,4 +35,8 @@ button {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.active {
+  color: #d2691e;
 }
